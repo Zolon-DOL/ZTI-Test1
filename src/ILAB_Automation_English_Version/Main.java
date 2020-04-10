@@ -1,4 +1,4 @@
-package ILAB_Automation_English_Version;
+ package ILAB_Automation_English_Version;
 import java.util.Date;
 
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ public class Main {
 		System.setProperty("webdriver.chrome.driver", "C:\\Aby\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://localhost:3000/");
+		driver.get("http://54.210.154.145:8085/");
 		System.out.println("=============================================================");
 		System.out.println("Comply Chain Application for U.S Department of Labor");
 		System.out.println(" Developed by Zolon Tech INC");

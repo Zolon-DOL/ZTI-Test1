@@ -30,9 +30,12 @@ public class About_Button {
 		Thread.sleep(2000);
 		driver.findElement(By.id("bottom-drawer-goods-link")).click();
 		Thread.sleep(2000);
+		driver.findElement(By.id("about-link")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("bottom-drawer-indenturedProductList-link")).click();
+		Thread.sleep(2000);
 		driver.findElement(By.id("navbar-left-items")).click();
-		System.out.println("About Button is tested for all it pages and verified to be functional");
-		
+		System.out.println("About Button is tested for all it pages and verified to be functional");	
 		
 }
 }

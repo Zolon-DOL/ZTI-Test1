@@ -10,7 +10,7 @@ public class Search_Button {
 		this.driver = Main.driver;
 		driver.findElement(By.id("search-link")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("search-input")).sendKeys("alianzas", Keys.ENTER);
+		driver.findElement(By.id("search-input")).sendKeys("labor", Keys.ENTER);
 		Thread.sleep(2000);
 		
 		/*driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[2]/a[1]/h3")).click();

@@ -15,14 +15,14 @@ public class Menu_step2 {
 	Thread.sleep(2000);
 	driver.findElement(By.id("topics")).click();
 	Thread.sleep(2000);
-	driver.findElement(By.xpath("//*[@id=\"topics\"]/div[2]/ul/li[1]/a")).click();
+	driver.findElement(By.xpath("//*[@id=\"topics\"]/div/ul/li[1]/a")).click(); 
 	Thread.sleep(2000);
 	driver.findElement(By.id("next-topic")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("next-topic")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("next-topic")).click();
-	Thread.sleep(2000);
+	Thread.sleep(3000);
 	driver.findElement(By.id("cocoa-chains-acc")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("generic-import-description")).click();

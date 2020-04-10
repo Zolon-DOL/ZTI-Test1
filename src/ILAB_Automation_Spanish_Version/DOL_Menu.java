@@ -13,7 +13,6 @@ public class DOL_Menu {
 		driver.findElement(By.id("menu-btn")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("es-btn")).click();
-		Thread.sleep(2000);
 		//clicks on the what-are-links
 		driver.findElement(By.id("what-are-link")).click();
 		System.out.println("What are child labor and Forced labor page is tesed and verfied to be working");

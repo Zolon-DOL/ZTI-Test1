@@ -17,8 +17,8 @@ public class BookMark_Bar {
 	Thread.sleep(2000);
 	driver.findElement(By.id("bookmarks-link")).click();
 	Thread.sleep(2000);
-	driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
-	/*driver.findElement(By.id("home_step_2")).click();
+	/*driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
+	driver.findElement(By.id("home_step_2")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("topics")).click();
 	Thread.sleep(2000);
@@ -29,12 +29,12 @@ public class BookMark_Bar {
 	Thread.sleep(2000);
 	driver.findElement(By.id("//*[@id=\"container\"]/div/ul/li[1]/ul/li[1]/button")).click();
 	Thread.sleep(2000);*/
-	driver.findElement(By.id("menu-btn")).click();
+	/*driver.findElement(By.id("menu-btn")).click();
 	driver.findElement(By.id("what-are-link")).click();
 	driver.findElement(By.id("child-labor")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("bookmarks-link")).click();
-	Thread.sleep(2000);
+	Thread.sleep(2000);*/
 	System.out.println("Book Marking function is tested and verified to be functional");
 	driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
 

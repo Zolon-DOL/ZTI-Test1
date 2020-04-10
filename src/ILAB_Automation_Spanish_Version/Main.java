@@ -1,4 +1,4 @@
-package ILAB_Automation_Spanish_Version;
+ package ILAB_Automation_Spanish_Version;
 import java.util.Date;
 
 import org.openqa.selenium.By;
@@ -13,33 +13,26 @@ public class Main {
 		System.setProperty("webdriver.chrome.driver", "C:\\Aby\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://localhost:3000/");
+		driver.get("http://54.210.154.145:8085/");
 		System.out.println("=============================================================");
 		System.out.println("Comply Chain Application for U.S Department of Labor");
 		System.out.println(" Developed by Zolon Tech INC");
 		System.out.println("Quality Assurance & Automation");
 		System.out.println("QA Analyst: Aby Chalil");
-		System.out.println("Reports to: Ms. Saliha Keddache");
 		System.out.println("=============================================================");
 		System.out.println("TEST REPORT & TEST STATUS");
-		System.out.println("ILAB - SPANISH VERSION");
+		System.out.println("ILAB - SPANISH VERSION");	
 		System.out.println("Application Loading....");
-		Thread.sleep(2000);
 		System.out.println("Test Begins...");
-		Thread.sleep(2000);
 		
 		DOL_Menu m= new DOL_Menu();
 		m.Menu();
-		
 		Menu_step1 s1 = new Menu_step1();
 		s1.Step1();
-		
 		Menu_step2 s2 = new Menu_step2();
 		s2.step2();
-		
 		Menu_step3  s3= new Menu_step3();
 		s3.step3();
-		
 		Menu_step4  s4= new Menu_step4();
 		s4.step4();
 		Menu_step5  s5= new Menu_step5();
@@ -62,7 +55,7 @@ public class Main {
 		abbtn.Abt_Btn();
 		Further_Resources fr1 = new Further_Resources();
 		fr1.furres();
-		System.out.println("Test Successful- SPANISH VERSION. END OF TESTING!!");
+		System.out.println("Test Successful- ENGLISH version. END OF TESTING!!");
 			  Date objDate = new Date();
 			  System.out.println(objDate.toString());
 			  driver.findElement(By.id("breadcrumbs")).click();
